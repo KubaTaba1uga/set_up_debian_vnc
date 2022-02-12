@@ -1,6 +1,18 @@
 [![PyTest](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml) 
 [![codecov](https://codecov.io/gh/KubaTaba1uga/python_script_executor/branch/master/graph/badge.svg?token=BHLC73ZGK0)](https://codecov.io/gh/KubaTaba1uga/python_script_executor)
 
+# Configuration description
+
+List of packages that app install and configure:
+
+1. tigervnc
+
+Configuration tested on:
+
+	- Debian 9
+	- Debian 10
+	- Debian 11
+
 # Requirements
 
 1. Python >=3.9
