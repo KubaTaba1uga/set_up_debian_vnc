@@ -48,7 +48,7 @@ for name, config in configs.items():
 
         home = Path(os.environ["HOME"])
 
-        vnc_config_path = home.joinpath(".vnc/xstartup")
+        vnc_config_path = home.joinpath(".vnc/config")
 
         # Create startup script
         with open(vnc_config_path, "w") as conf:
