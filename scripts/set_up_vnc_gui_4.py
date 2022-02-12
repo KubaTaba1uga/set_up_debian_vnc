@@ -34,7 +34,9 @@ while loop_control:
     for name, config in configs.items():
         print(" " * 4, f"{config['number']}. {name}")
 
-    choice = input("\nPick number to choose configuration: ")
+    print("\nPick number to choose configuration: ", end="")
+
+    choice = sys.stdin.readline()
 
     if choice not in (str(config["number"]) for config in configs.values()):
         print("\nWrong input! Try again!\n")
