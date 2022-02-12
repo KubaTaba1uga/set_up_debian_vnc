@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install curl
+sudo apt-get install curl -y
 
 PUBLIC_IP=`curl -Ls ipinfo.io/ip`
 
