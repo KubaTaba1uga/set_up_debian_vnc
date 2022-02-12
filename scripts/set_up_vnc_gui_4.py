@@ -36,7 +36,7 @@ while loop_control:
 
     print("\nPick number to choose configuration: ", end="")
 
-    choice = sys.stdin.readline()
+    choice = sys.stdin.readline().replace("\n", "")
 
     if choice not in (str(config["number"]) for config in configs.values()):
         print("\nWrong input! Try again!\n")
