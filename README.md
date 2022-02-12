@@ -5,16 +5,11 @@
 
 1. Python >=3.9
 2. Poetry
+3. sudo
 
-Python 3.9.8 installation:
+Requirements installation:
 
-	cd .prep
-	/bin/bash install_python3_9.sh
-
-Poetry installation:
-
-	python3 -m pip install poetry
-
+	/bin/bash prepare_to_start.sh
 
 # App description 
 
