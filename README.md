@@ -64,3 +64,9 @@ To start app with default settings use:
 To show help use:
 
 	python3 -m poetry run start.py -h
+	
+
+To enable on boot:
+
+	crontab -e
+	# type: @reboot /usr/bin/vncserver :1
